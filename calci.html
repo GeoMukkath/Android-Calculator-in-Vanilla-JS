@@ -1,0 +1,54 @@
+<html>
+    <title>Calci</title>
+<head>
+    <link  rel="stylesheet" type="text/css" href="calci.css" >
+    <script type = "text/javascript" src="./calci.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div>
+        <input id="textbox" autofocus/>
+            <br>
+        <table>
+            <tr>
+                <button class="bt" onclick="clr()">C</button>
+                <button class="bt" onclick="bk()"><</button>
+                <button class="bt" onclick="insert('/')">/</button>
+                <button class="bt" id="sdbar" onclick="insert('*')">X</button>
+            </tr>
+            <br>
+            <tr>
+                <button class="bt" onclick="insert(7)">7</button>
+                <button class="bt" onclick="insert(8)">8</button>
+                <button class="bt" onclick="insert(9)">9</button>
+                <button class="bt" id="sdbar" onclick="insert('-')">-</button>
+            </tr>
+            <br>
+            <tr>
+                <button class="bt" onclick="insert(4)">4</button>
+                <button class="bt" onclick="insert(5)">5</button>
+                <button class="bt" onclick="insert(6)">6</button>
+                <button class="bt" id="sdbar" onclick="insert('+')">+</button>
+            </tr>
+            <br>
+            <tr>
+                <button class="bt" onclick="insert(1)">1</button>
+                <button class="bt" onclick="insert(2)">2</button>
+                <button class="bt" onclick="insert(3)">3</button>
+                <button class="bt" id="btt" onclick="equal()">=</button> 
+            </tr>
+            <br>
+            <tr>
+                <button class="bt" onclick="insert(0)">0</button>
+                <button class="bt" onclick="insert('.')">.</button>
+                <button class="bt" onclick="insert('%')">%</button>
+            </tr>
+        </table>
+    </div>
+
+
+<a href="http://geomukkath.com"><img src="G.png"></a>
+</body>
+
+</html>
