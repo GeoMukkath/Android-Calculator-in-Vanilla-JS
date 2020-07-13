@@ -5,6 +5,6 @@ Made completely using Javascript. Every hex code used corresponds to the origina
 
 ![Image of Android calculator](https://img.techpowerup.org/200713/acalci1.png)
 
-![Image of Android calculator](https://ibb.co/3pwh8FZ)
+![Image of Android calculator](https://img.techpowerup.org/200713/acalci2.png)
 
 Author Geo Mukkath 
